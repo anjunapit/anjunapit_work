@@ -1,0 +1,256 @@
+body{width: 100%;}
+a{color:#444 !important;}
+a:hover{text-decoration: none !important;}
+
+/*top- header*/
+.top-menu-wrapper{
+	background-color:  #002db3;
+	padding: 0 0 1.7% 0;
+	color: #fff;
+}
+.top-menu-wrapper h6{
+	text-align: center;
+}
+.top-menu-wrapper a{
+	color:#fff !important;
+}
+.top-menu-wrapper .top-menu a:hover{
+	color: #fff;
+}
+.logo{
+	font-size: 25px;
+}
+.top-menu p{
+    margin: -60px 0 0 80px;
+        font-family: 'Lobster Two', cursive;
+}
+/*top- end*/
+
+/*left column start*/
+.row{
+	margin-right: 0 !important;
+    margin-left: 0 !important; 
+}
+.left-wrapper{
+	margin:0 !important;
+}
+.left-side-wrapper{
+	margin: 20px 0;
+}
+.side-navbar{
+	background-color:#F3F3F3;
+	width: 100%;
+	border-radius: 1%;
+	padding:6%;
+}
+.side-navbar a{
+	margin:2% 0;
+}
+.border-wrapper{
+ 	border-bottom: 1px solid #c2c2c2;
+ 	margin-top: 10%;
+ 	padding-bottom: 4%;
+}
+/*left column end*/
+
+
+/*middle column start*/
+.middle-column-wrapper h6{
+	margin:20px 0;
+	font-size: 22px;
+	color: #3f51b5;
+}
+.subject-name-wrapper img{
+	border-radius:2% 2% 0 0;
+}
+.name-wrapper{
+	color:#616161;
+	margin-bottom: 20px;
+	background-color: #f2f2f2;
+	padding:2%;
+	border-radius:0 0 2% 2%;
+}
+/*middle column end*/
+
+
+
+
+/*chapter start*/
+
+/*chapter end*/
+
+
+
+
+/*question start*/
+.middle-column-wrapper{
+	margin:0 0 40px 0;
+}
+.fa-ellipsis-v{
+	color:#A8A8A8!important;
+}
+.ans-wrapper, .ans-wrapper a{
+	color:#3F51B5 !important;
+}
+.ans-wrapper{
+	font-size: 14px;
+	background-color: #eee;
+	padding:10px;
+}
+.ques-wrapper{
+	padding:10px 0 0 0;
+}
+.questions-img-wrapper{
+	margin-left: 30%;
+}
+.question-wrapper{
+	padding:0  0 10px 0;
+	margin:10px 0 30px 0;
+	box-shadow: 0.5px 0.5px 6px 0.5px #616161; 
+}
+.viewallans{
+	margin:0 0 1.5% 1%; 
+}
+.viewallans a{
+	background-color: #54C733;
+	padding: 5px;
+	margin:0 0 4% 4%;
+	color: #fff !important;
+	border-radius: 5px;
+}
+.question-body-wrapper{
+	background-color: #eee;
+}
+#collapsibleNavbar{
+	width:100%;
+}
+.question-number{
+	float: left;
+}
+.question-main{
+	/*float: right;*/
+/*    margin-top: -24px;*/
+    margin-left: 20px;
+}
+/*question end*/
+
+/*answers start*/
+.answer-wrapper{
+	padding: 0 5%;
+}
+.answer-wrapper h6{
+	color: #3b4aa4;
+	font-size: 22px;
+}
+.comments-ans-wrapper{
+	padding:2% 2% 8% 2%;
+}
+.comments-ans-wrapper h6{
+	border-bottom: 1px solid #eee;
+	padding:0 20px 20px 20px;
+	font-size: 22px;
+	color: #3f51b5;
+}
+.comment-section{
+	padding:0 20px 0 20px;
+}
+.comment-section input{
+	float: right;
+	margin: 2% 0;
+	background-color: #54C733;
+	color: #fff;
+}
+.comment-section input:hover{
+	background-color: #3f51b5;
+}
+/*answers end*/
+
+
+/*index start*/
+.tabs-wrapper{
+	font-size: 17px;
+}
+.middle-column-wrapper-1 p{
+	padding: 10px;
+	text-align: center;
+	background-color:  #89c355;
+	border-radius: 2%;
+	font-size: 15px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+ .middle-column-wrapper-1 span{
+ 	font-size: 15 px;
+ 	color: #E0E0E0;
+}
+.accordion {
+    background-color:  #89c355;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.accordion:active{
+	border:none;
+}
+.accordion:hover {
+    background-color: #689f38;
+}
+.accordion:after {
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2212";
+}
+.panel{
+    padding: 0 18px;
+    background-color: #f3f1f1;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 15px;
+    color: #444;
+}
+.panel ul li:hover{
+    background-color: #689f38;
+}
+/*.panel ul a:hover{
+    text-decoration: none;
+}*/
+.panel ul li{
+    display: block;
+    padding:15px;
+    margin-left: -20px;
+    background-color: #89c355;
+    margin-bottom: 3px;
+    margin-top: 14px;
+    color: #fff;
+    border-radius: 5px;
+}
+/*index end*/
+@media(max-width: 767px){
+	.navbar-toggler{
+		width: 100%;
+	}
+	.navbar-light{
+		background-color: #eee !important
+	}
+	.navbar-toggler-icon{
+		float: right;
+	}
+}
+.navbar{
+	padding:0 !important;
+}
+
+
+
